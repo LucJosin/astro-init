@@ -1,5 +1,7 @@
 import { defineConfig } from "astro/config";
 
+import sitemap from "@astrojs/sitemap";
+
 // https://astro.build/config
 export default defineConfig({
   // Your final, deployed URL.
@@ -11,4 +13,8 @@ export default defineConfig({
   //
   // ‘static’ - Building a static site to be deploy to any static host.
   output: "static",
+  // Astro sitemap.
+  //
+  // Ref: https://docs.astro.build/en/guides/integrations-guide/sitemap/
+  integrations: [sitemap()],
 });
