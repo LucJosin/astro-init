@@ -1,40 +1,37 @@
-# Welcome to [Astro](https://astro.build)
+# Welcome to [Astro](https://astro.build) boilerplate
 
-## 🚀 Project Structure
+## Usage
 
-Inside of your Astro project, you'll see the following folders and files:
+- [Fork](https://github.com/LucJosin/astro-init/fork)
+- [Download](https://github.com/LucJosin/astro-init/archive/refs/heads/main.zip)
+- [Degit](https://github.com/Rich-Harris/degit)
+  - ```
+    degit LucJosin/astro-init
+    ```
 
-```
-/
-├── public/
-│   └── favicon.ico
-├── src/
-│   ├── components/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+## Dependencies
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+See more Astro [integrations](https://astro.build/integrations/)
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components or layouts.
+- [@astrojs/sitemap](https://www.npmjs.com/package/@astrojs/sitemap)
+- [astro](https://www.npmjs.com/package/astro)
+- [astro-compress](https://www.npmjs.com/package/astro-compress)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [prettier](https://www.npmjs.com/package/prettier)
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
+| Command             | Action                                             |
+| :------------------ | :------------------------------------------------- |
+| `yarn install`      | Installs dependencies                              |
+| `yarn dev`          | Starts local dev server at `localhost:3000`        |
+| `yarn build`        | Build your production site to `./dist/`            |
+| `yarn preview`      | Preview your build locally, before deploying       |
+| `yarn astro ...`    | Run CLI commands like `astro add`, `astro preview` |
+| `yarn astro --help` | Get help using the Astro CLI                       |
 
-## 👀 Want to learn more?
+## Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free check the [documentation](https://docs.astro.build).
